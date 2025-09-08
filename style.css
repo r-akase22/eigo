@@ -1,0 +1,56 @@
+body {
+  font-family: "Segoe UI", "Yu Gothic", sans-serif;
+  background: #eef6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  width: 420px;
+  text-align: center;
+}
+
+h1 {
+  color: #004080;
+}
+
+#questionText {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#answerInput {
+  width: 80%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#submitBtn {
+  padding: 8px 12px;
+  margin-left: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #004080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+#feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  min-height: 20px;
+}
+
+#score {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+}
